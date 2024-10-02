@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+:root {
+  --bg-blue: #93b5c9;
+  --bg-wine: #ab2849;
+}
+
+.blue-bar {
+  width: 100%;
+  height: 100px;
+  background-color: var(--bg-blue);
+  float: none;
+}
+
+.red-bar {
+  width: 100%;
+  height: 200px;
+  background-color: var(--bg-wine);
+  margin-bottom: 15px;
+  float: none;
+}
+
+.red-bar-1,
+.red-bar-2,
+.red-bar-3,
+.red-bar-4 {
+  width: 70%;
+  height: 110px;
+  background-color: var(--bg-wine);
+  margin-bottom: 15px;
+  float: left;
+}
+
+.red-bar-5 {
+  width: 70%;
+  height: 90px;
+  background-color: var(--bg-wine);
+  float: right;
+  margin-right: 350px;
+}
